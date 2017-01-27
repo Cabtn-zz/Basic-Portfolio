@@ -1,5 +1,48 @@
 body {
-	background-color: lightgrey;
+	background-color: lightblue;
+}
+
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+header {
+	size: 1000px;
+	background-color: #ffffff;
+	border-color: #cccccc;
+	float: left;
+	width: 100%;
+
+}
+ul, li{
+	float: right;
+	width: 30%;
+}
+
+img {
+	border-radius: 50%;
+	width: 200px;
+}
+aside
+{
+	float: right;
+	width: 30%;
+	
+}
+section{
+	float: left;
+	width: 70%;
+
+}
+ #bio, #connect #contact {
+ 	float: left;
+ 	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#contact
+{
+	width: 10%;
+	
 }
 
 .teal {
