@@ -14,26 +14,36 @@ header {
 	width: 100%;
 
 }
-ul, li{
+ul, li {
 	float: right;
 	width: 30%;
+}
+div {
+	background-color: teal;
+	width: 200px;
 }
 
 img {
 	border-radius: 50%;
 	width: 200px;
 }
-aside
-{
+aside {
 	float: right;
-	width: 30%;
-	
+	width: 260px;
+	margin-right: 200px;
+	margin-top: 150px;
+	border: 1px solid black;
 }
-section{
-	float: left;
-	width: 70%;
 
+section {
+	float: left;
+	text-align: center;
+	width: 650px;
+	margin-left: 10%;
+	margin-top: 40px;
+	border: 1px solid black;
 }
+
  #bio, #connect #contact {
  	float: left;
  	font-family: 'Georgia', Times, Times New Roman, serif;
