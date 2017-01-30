@@ -21,6 +21,7 @@ li {
 	float: left;
 	width: 25%;
 	text-align: center;
+	font-size: 25px;
 }
 
 a {
@@ -54,9 +55,9 @@ section {
 	
 }
 #name {
-	width: 20%;
+	width: 15%;
 	height: 100px;
-	margin-left: 75px;
+	margin-left: 10%;
 	background-color: #4aaaa5;
 	color: white;
 	text-align: center;
@@ -98,4 +99,57 @@ footer {
 
 .main {
 	border-color: #dddddd;
+}
+
+.box {
+	background-color: white;
+	width: 40%;
+	height: 400px;
+	margin-left: 10%;
+	z-index: 1;
+	position: relative;
+	top: 100px;
+}
+
+.box1 {
+	background-color: grey;
+	background-size: 100%;
+	background-image:url(https://www.extremetech.com/wp-content/uploads/2015/09/sat-ai-head-640x353.jpg);
+	width: 25%;
+	height: 25%;
+	position: absolute;
+	top: 25px;
+}
+
+.box2 {
+	background-color: grey;
+	background-size: 100%;
+	background-image: url(https://lh3.ggpht.com/2ZbR3AYxGipGK-7rv7Zvmz2l1rmaaK8_Ncr9jWE7IdIxfI5lmgfIiFPnC5nZZEsqnRWL=w300);
+	width: 25%;
+	height: 25%;
+	position: absolute;
+	bottom: 25px;
+}
+
+.box3 {
+	background-color: grey;
+	background-size: 100%;
+	background-image: url(https://lh3.googleusercontent.com/nYhPnY2I-e9rpqnid9u9aAODz4C04OycEGxqHG5vxFnA35OGmLMrrUmhM9eaHKJ7liB-=w300);
+	width: 25%;
+	height: 25%;
+	position: absolute;
+	right: 0px;
+	top: 25px;
+}
+
+.box4 {
+	background-color: grey;
+	background-size: 100%;
+	background-image:url(http://images.akamai.steamusercontent.com/ugc/538508558213041629/1F678C9B9F63DC73B3BF5432C90DCD8D0B9E3AC7/);
+	width: 25%;
+	height: 25%;
+	position: absolute;
+	right: 0px;
+	bottom: 25px;
+
 }
