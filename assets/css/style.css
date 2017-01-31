@@ -31,13 +31,15 @@ a {
 }
 
 aside {
-	float: right;
 	width: 20%;
 	margin-top: 150px;
 	margin-right: 20%;
 	border: 1px solid black;
 	background-color: white;
 	text-align: center;
+	position: fixed;
+	bottom: 50%;
+	right: 15px;
 }
 
 section {
