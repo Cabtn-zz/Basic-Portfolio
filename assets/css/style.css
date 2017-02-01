@@ -1,6 +1,11 @@
-body {
+body  {
 	background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/weather.png);
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+
+	
 }
 
 h1, h2, h3 {
@@ -37,7 +42,7 @@ aside {
 	border: 1px solid black;
 	background-color: white;
 	text-align: center;
-	position: fixed;
+	position: absolute;
 	bottom: 50%;
 	right: 15px;
 }
@@ -51,11 +56,14 @@ section {
 	background-color: white;
 }
 
-#contact  {
-	border-radius: 50%;
+.contact  {
+	/*border-radius: 50%;*/
 	width: 50px;
+	border-top: grey;
+
 	
 }
+
 #name {
 	width: 15%;
 	height: 100px;
@@ -72,6 +80,7 @@ section {
 
 .teal {
 	color: #4aaaa5;
+	border-bottom: 3px solid grey;
 
 }
 
@@ -79,24 +88,25 @@ section {
 	font-color: #777777;
 }
 
-.header {
+header {
 	background-color: #ffffff;
-	border-color: #cccccc
+	border-color: #cccccc;
 	width: 100%;
-	height: 100px;
-	position: relative;
+	/*position: relative;*/
 
 }
 
 footer {
 	background-color: #666666;
-	clear: both;
 	position: fixed; 
 	bottom: 0px;
 	width: 100%;
 	height: 50px;
 	text-align: center;
 	border-top: 10px solid #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+	
 }
 
 .main {
@@ -126,7 +136,7 @@ footer {
 .box2 {
 	background-color: grey;
 	background-size: 100%;
-	background-image: url(https://lh3.ggpht.com/2ZbR3AYxGipGK-7rv7Zvmz2l1rmaaK8_Ncr9jWE7IdIxfI5lmgfIiFPnC5nZZEsqnRWL=w300);
+	background-image: url('https://lh3.ggpht.com/2ZbR3AYxGipGK-7rv7Zvmz2l1rmaaK8_Ncr9jWE7IdIxfI5lmgfIiFPnC5nZZEsqnRWL=w300');
 	width: 25%;
 	height: 25%;
 	position: absolute;
@@ -147,7 +157,7 @@ footer {
 .box4 {
 	background-color: grey;
 	background-size: 100%;
-	background-image:url(http://images.akamai.steamusercontent.com/ugc/538508558213041629/1F678C9B9F63DC73B3BF5432C90DCD8D0B9E3AC7/);
+	background-image:url('http://images.akamai.steamusercontent.com/ugc/538508558213041629/1F678C9B9F63DC73B3BF5432C90DCD8D0B9E3AC7/');
 	width: 25%;
 	height: 25%;
 	position: absolute;
