@@ -27,6 +27,7 @@ li {
 	font-size: 20px;
 	border-right: 1px solid grey;
 	color: grey;
+	margin-top: -15px
 }
 
 a {
@@ -36,10 +37,9 @@ a {
 }
 
 aside {
-	width: 20%;
+	width: 270px;
 	margin-top: 150px;
-	margin-right: 20%;
-	border: 1px solid black;
+	margin-right: 10%;
 	background-color: white;
 	text-align: center;
 	position: absolute;
@@ -49,13 +49,11 @@ aside {
 
 section {
 	float: left;
-	width: 45%;
+	width: 650px;
 	margin-left: 10%;
 	margin-top: 40px;
 	border: 1px solid black;
 	background-color: white;
-	padding-bottom: 30px;
-	padding-right: 10px;
 	position: relative;
 }
 
@@ -72,9 +70,10 @@ p {
 }
 
 #name {
-	width: 15%;
-	height: 100px;
+	width: 25%;
+	height: 50px;
 	margin-left: 10%;
+	padding-top: 10px;
 	background-color: #4aaaa5;
 	color: white;
 	text-align: center;
@@ -82,7 +81,7 @@ p {
 
 .pic {
 	width: 200px;
-	border-radius: 50%;
+	border-radius: 25	%;
 	padding: 5%;
 	float: left;
 }
@@ -90,6 +89,7 @@ p {
 .teal {
 	color: #4aaaa5;
 	border-bottom: 3px solid grey;
+	margin: 5%;
 
 }
 
@@ -101,7 +101,7 @@ header {
 	background-color: #ffffff;
 	border-color: #cccccc;
 	width: 100%;
-	/*position: relative;*/
+	margin-top: -20px;
 
 }
 
