@@ -88,7 +88,7 @@ form {
 p {
 	line-height: 2;
 	text-align: left;
-	padding: 1px;
+	color: #777777;
 }
 
 .contact  {
@@ -134,6 +134,8 @@ p {
 
 .fontreg {
 	font-color: #777777;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
 
@@ -190,4 +192,23 @@ p {
     opacity: 0.80;
 	
 }
+.button {
+    background-color: #4aaaa5; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
 
+.div1 {
+    width: 300px;
+    font-size: 20px;
+}
+
+.div2 {
+	width: 400px;
+	font-size: 20px;
+}
