@@ -49,10 +49,11 @@ aside {
 
 section {
 	float: left;
-	width: 650px;
+	width: 640px;
 	margin-left: 10%;
 	margin-top: 40px;
-	border: 1px solid black;
+	padding-right: 5px;
+	padding-left: 5px;
 	background-color: white;
 	position: relative;
 }
@@ -80,11 +81,24 @@ p {
 }
 
 .pic {
-	width: 200px;
+	width: 250px;
+	height:200px;
 	border-radius: 25	%;
 	padding: 5%;
 	float: left;
+	position: relative;
 }
+
+.bio {
+
+	width: 205px;
+	border-radius: 25	%;
+	padding: 5%;
+	float: left;
+	position: relative;
+}
+
+
 
 .teal {
 	color: #4aaaa5;
@@ -123,18 +137,52 @@ footer {
 }
 
 .box1 {
-	
+	position: absolute;
+    top: 275px;
+    height: 35px;
+    width: 250px;
+    left: 37px;
+    text-align: center;
+    background-color: white;
+    color: #4aaaa5 ; 
+    opacity: 0.80;
 }
 
 .box2 {
-	
+	position: absolute;
+    top: 275px;
+    right: 49px;
+    height: 35px;
+    width: 250px;
+    text-align: center;
+    background-color: white;
+    color: #4aaaa5 ; 
+    opacity: 0.80;
+  
 }
 
 .box3 {
-	
+	position: absolute;
+    bottom: 50px;
+    height: 35px;
+    width: 250px;
+    left: 37px;
+    text-align: center;
+    background-color: white;
+    color: #4aaaa5 ; 
+    opacity: 0.80;
 }
 
 .box4 {
-
+	position: absolute;
+    bottom: 50px;
+    height: 35px;
+    width: 250px;
+    right: 49px;
+    text-align: center;
+    background-color: white;
+    color: #4aaaa5 ; 
+    opacity: 0.80;
+	
 }
 
